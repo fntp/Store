@@ -1,0 +1,42 @@
+#footNav {
+	width: 980px;
+	margin: 20px auto 0;
+	text-align: center;
+}
+#footNav p {
+	margin-top: 10px;
+	color: #333;
+}
+#footNav p a {
+	padding: 0 6px;
+	color: #333;
+}
+#footNav p a:hover {
+	color: #c00;
+}
+.headFont span,.headFont a {
+	line-height: 18px;
+	font-family: "SimSun";
+	font-size: 12px;
+	color: #999;
+	vertical-align: middle;
+}
+.headFont span a {
+	color: #06c;
+}
+.headFont span a:hover {
+	color: #f60;
+}
+.headFont>a {
+	margin-left: 25px;
+	color: #E60012;
+}
+.headFont>a {
+	margin-left: 25px;
+	color: #333;
+}
+.innerNav {
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+}

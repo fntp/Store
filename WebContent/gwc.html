@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>鑫软心选，用心为你选</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/carts.css">
+ 
+</head>
+<body>
+<!--网页头部-->
+<header>
+    <div class="soubg">
+        <div class="sou fl">
+            <div class="s_city_b">
+                <span>当前位置：安徽安庆</span>
+            </div>
+        </div>
+      <div class="fr top_right"> 
+            <div class="fl" >
+             你好!   <a href="login.html" id="hreflogin"><span id="welcome">请登录</span></a>
+                <a href="register.html" style="color:#ff4e00;"><span id="register">免费注册</span></a>&nbsp; | &nbsp;<a href="cart.html">我的订单</a>&nbsp; |
+            </div>
+            <ul class="ss">
+                <li class="ss_list">
+                    <a href="#">收藏夹</a>
+                </li>
+                <li class="ss_list">
+                    <a href="#">客户服务</a>
+                    <div class="ss_list_bg">
+                        <div class="ss_list_c">
+                            <ul>
+                                <li><a href="#">包裹跟踪</a></li>
+                                <li><a href="#">创建问题</a></li>
+                                <li><a href="#">在线退换货</a></li>
+                                <li><a href="#">在线投诉</a></li>
+                                <li><a href="#">配送范围</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="ss_list">
+                    <a href="#">网站导航</a>
+                </li>
+            </ul>
+            <span class="fl">|&nbsp;关注我们：</span>
+                <span class="s_sh">
+                    <a href="#" class="sh1">	</a>
+                    <a href="#" class="sh2">微信</a>
+                </span>
+                <span class="fr">|&nbsp;
+                    <a href="#">手机版&nbsp;
+                        <img src="images/s_tel.png" align="absmiddle"/>
+                    </a>
+                </span>
+        </div>
+    </div>
+
+    <div class="top">
+        <div class="logo">
+            <a href="store.html">
+                <img src="images/logo.png"/>
+            </a>
+        </div>
+        <div class="search">
+            <form>
+                <input type="search" value="" placeholder="请输入关键字" class="s_ipt"/>
+                <input type="submit" value="搜索" class="s_btn"/>
+            </form>
+            <div class="fl">
+                <a href="#">咖啡</a>
+                <a href="#">iphone 6S</a>
+                <a href="#">新鲜美食</a>
+                <a href="#">蛋糕</a>
+                <a href="#">日用品</a>
+                <a href="#">连衣裙</a>
+            </div>
+        </div>
+        <div class="i_car">
+            <div class="car_t">购物车</div>
+        </div>
+    </div>
+</header>
+
+   <section class="cartMain" id="shoplist">
+        <div class="cartMain_hd">
+            <ul class="order_lists cartTop">
+                <li class="list_chk">
+                    <!--所有商品全选-->
+                    <input type="checkbox" id="all" class="whole_check">
+                    <label for="all"></label>
+                    全选
+                </li>
+                <li class="list_con">商品信息</li>
+                <li class="list_info">商品参数</li>
+                <li class="list_price">单价</li>
+                <li class="list_amount">数量</li>
+                <li class="list_sum">金额</li>
+                <li class="list_op">操作</li>
+            </ul>
+        </div>
+
+        <div class="cartBox">
+            <div class="shop_info">
+                <div class="all_check">
+                    <!--店铺全选-->
+                    <input type="checkbox" id="shop_a" class="shopChoice">
+                    <label for="shop_a" class="shop"></label>
+                </div>
+                <div class="shop_name">                
+              <!-- 第一个店铺   -->    
+                  
+                    店铺：<a href="javascript:;"><span id="maijia1">搜猎人艺术生活</span></a>
+                </div>
+            </div>
+            <div class="order_content">
+                <ul class="order_lists">
+                    <li class="list_chk">
+                        <input type="checkbox" id="checkbox_2" class="son_check">
+                        <label for="checkbox_2"></label>
+                    </li>
+                    <li class="list_con">
+                        <div class="list_img"><a href="javascript:;"><img src="images/p_big.jpg" alt=""></a></div>
+                        <div class="list_text"><a href="javascript:;"><span id="name1">夏季男士迷彩无袖T恤圆领潮流韩版修身男装背心青年时尚打底衫男</span></a></div>
+                    </li>
+                    <li class="list_info">
+                        <p>规格：默认</p>
+                        <p>尺寸：16*16*3(cm)</p>
+                    </li>
+                    <li class="list_price">
+                        <p class="price">￥1786</p>
+                    </li>
+                    <li class="list_amount">
+                        <div class="amount_box">
+                            <a href="javascript:;" class="reduce reSty">-</a>
+                            <input type="text" value="1" class="sum">
+                            <a href="javascript:;" class="plus">+</a>
+                        </div>
+                    </li>
+                    <li class="list_sum">
+                        <p class="sum_price">￥1786</p>
+                    </li>
+                    <li class="list_op">
+                        <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                    </li>
+                </ul>
+              
+            </div>
+        </div>
+
+
+
+
+                 <!-- 第二个店铺 --><div id="dier">
+
+        <div class="cartBox">
+            <div class="shop_info">
+                <div class="all_check">
+                    <!--店铺全选-->
+                    <input type="checkbox" id="shop_b" class="shopChoice">
+                    <label for="shop_b" class="shop"></label>
+                </div>
+                <div class="shop_name">
+                   
+                   
+                   
+                   
+                   
+                    店铺：<a href="javascript:;"><span id="maijia2">卷卷旗舰店</span></a>
+                </div>
+            </div>
+            <div class="order_content">
+            <!-- 第一件商品 -->
+                <ul class="order_lists">
+                    <li class="list_chk">
+                        <input type="checkbox" id="checkbox_4" class="son_check">
+                        <label for="checkbox_4"></label>
+                    </li>
+                    <li class="list_con">
+                        <div class="list_img"><a href="javascript:;"><img src="images/sp1.jpg" alt=""></a></div>
+                        <div class="list_text"><a href="javascript:;"><span id="name2">夏季男士迷彩无袖T恤圆领潮流韩版修身男装背心青年时尚打底衫男</span></a></div>
+                    </li>
+                    <li class="list_info">
+                        <p>规格：默认</p>
+                        <p>尺寸：16*16*3(cm)</p>
+                    </li>
+                    <li class="list_price">
+                        <p class="price">￥1880</p>
+                    </li>
+                    <li class="list_amount">
+                        <div class="amount_box">
+                            <a href="javascript:;" class="reduce reSty">-</a>
+                            <input type="text" value="1" class="sum">
+                            <a href="javascript:;" class="plus">+</a>
+                        </div>
+                    </li>
+                    <li class="list_sum">
+                        <p class="sum_price">￥1880</p>
+                    </li>
+                    <li class="list_op">
+                        <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                    </li>
+                </ul>
+            
+            
+            </div></div>
+
+
+    
+        </div>
+     <!-- 第二个商店 -->   
+        
+        
+        
+        <!--底部-->
+        <div class="bar-wrapper">
+            <div class="bar-right">
+                <div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+                <div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
+                <div class="calBtn"><a href="ok.html">结算</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="model_bg"></section>
+    <section class="my_model">
+        <p class="title">删除宝贝<span class="closeModel">X</span></p>
+        <p>您确认要删除该宝贝吗？</p>
+        <div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div>
+    </section>
+    <script charset="UTF-8" src="js/shoplistinit.js"></script>	
+    <script src="js/jquery.min.js"></script>
+    <script src="js/carts.js"></script>
+	
+
+    <div id="tishi"><center><img src="images/gwc.png"></img></center></div>
+
+
+
+
+
+<!--网页底部-->
+<footer class="center">
+    <!-- Footer -->
+    <div class="b_btm_bg b_btm_c">
+        <ul class="b_btm">
+            <li>
+                <a><img src="images/b1.png" width="62" height="62"/></a>
+                <div><h2>正品保障</h2>正品行货 放心购买</div>
+            </li>
+            <li >
+                <a><img src="images/b2.png" width="62" height="62"/></a>
+                <div><h2>满38包邮</h2>满38包邮 免运费</div>
+            </li>
+            <li>
+                <a><img src="images/b3.png" width="62" height="62"/></a>
+                <div><h2>天天低价</h2>天天低价 畅选无忧</div>
+            </li>
+            <li>
+                <a><img src="images/b4.png" width="62" height="62"/></a>
+                <div><h2>准时送达</h2>收货时间由你做主</div>
+            </li>
+        </ul>
+    </div>
+    <div class="b_nav">
+        <dl>
+            <dt><a href="#">新手上路</a></dt>
+            <dd><a href="#">售后流程</a></dd>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">订购方式</a></dd>
+            <dd><a href="#">隐私声明</a></dd>
+            <dd><a href="#">推荐分享说明</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">配送与支付</a></dt>
+            <dd><a href="#">货到付款区域</a></dd>
+            <dd><a href="#">配送支付查询</a></dd>
+            <dd><a href="#">支付方式说明</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">会员中心</a></dt>
+            <dd><a href="#">资金管理</a></dd>
+            <dd><a href="#">我的收藏</a></dd>
+            <dd><a href="#">我的订单</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">服务保证</a></dt>
+            <dd><a href="#">退换货原则</a></dd>
+            <dd><a href="#">售后服务保证</a></dd>
+            <dd><a href="#">产品质量保证</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">联系我们</a></dt>
+            <dd><a href="#">网站故障报告</a></dd>
+            <dd><a href="#">购物咨询</a></dd>
+            <dd><a href="#">投诉与建议</a></dd>
+        </dl>
+        <div class="b_tel_bg">
+            <a href="#" class="b_sh1">新浪微博</a>
+            <a href="#" class="b_sh2">腾讯微博</a>
+
+            <p>
+                服务热线：<br/>
+                <span>400-123-4567</span>
+            </p>
+        </div>
+        <div class="b_er">
+            <div class="b_er_c"><img src="images/er.gif" /></div>
+            <img src="images/ss.png"/>
+        </div>
+    </div>
+    <div class="btmbg">
+        <div class="btm">
+                 备案/许可证编号：皖ICP备20007657号-1-www.shop.sinsy.club Copyright© 鑫软心选 2019-2020，All Rights Reserved. 复制必究 ,
+            SINSY科技 <br/>
+            <img src="images/b_1.gif"/>
+            <img src="images/b_2.gif"/>
+            <img src="images/b_3.gif"/>
+            <img src="images/b_4.gif"/>
+            <img src="images/b_5.gif"/>
+            <img src="images/b_6.gif"/>
+        </div>
+    </div>
+    <!--Footer -->
+</footer>
+	<script src="js/jquery-3.4.1.js" charset="UTF-8"></script>
+	<script src="js/gwcnick.js" charset="UTF-8"></script>
+	<script src="js/shoplist.js"></script>
+</body>
+</html>
